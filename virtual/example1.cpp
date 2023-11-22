@@ -19,6 +19,13 @@ public:
  
     void show() { cout << "show derived class\n"; }
 };
+
+class derived2 : public derived{
+public:
+
+    void print(){cout << "print from derived2 class\n";}
+    void show(){cout << "show derived2 class\n";}
+};
  
 int main()
 {
@@ -31,8 +38,27 @@ int main()
  
     // Non-virtual function, binded at compile time
     bptr->show();
- 
     
+    
+    /* OUTPUT
+    print derived class
+    show base class
+    */
+    
+    // d.show();
+
+    derived2 d2;
+    bptr = &d2;
+
+    bptr->print(); // it prints from derived2(runtime)
+
+    bptr->show(); // it prints from base class(binded at compile time)
+
+
+    /* OUTPUT
+    print from derived2 class
+    show base class
+    */
 
     return 0;
 }
