@@ -1,7 +1,9 @@
+.vscode
 virtual/example1.exe
 virtual/example2.exe
 static/variabila_statica_clasa.exe
 static/variabila_statica.exe
+
 
 virtual/example1.o
 virtual/example2.o
