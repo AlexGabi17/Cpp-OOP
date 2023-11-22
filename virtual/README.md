@@ -10,8 +10,15 @@ O functie membru este declarata *virtuala* intr-o clasa pentru a putea fi supras
 2. O functie virtuala poate fi o functie **friend** a altei clase
 3. Prototipul functiei virtuale trebuie sa fie acelasi in clasa derivata, asa cum este definit si in clasa de baza.
 
+## How does the compiler perform runtime resolution?
+* vtable - Un tabel de pointer, mentinut pentru fiecare clasa
+* vptr - Un pointer catre vtable, mentinut pentru fiecare instanta a unui obiect
+
+
 # Bibliografie
 
 [CppReference](https://en.cppreference.com/w/cpp/language/virtual)
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/virtual-function-cpp/)
+
+[GeeksForGeeks - Virtual Functions and Runtime Polymorphism in C++](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-cpp/)
