@@ -20,7 +20,7 @@ Keyword-ul *static* are semnificații diferite când este folosit cu diferite ti
 
 * Functii statice intr-o clasa:
 
-     La fel ca și membrii de date statici sau variabilele statice din interiorul clasei, funcțiile membre statice nu depind de obiectul clasei. Avem voie să apelăm o funcție membră statică folosind obiectul și operatorul „.”, dar se recomandă să apelăm membrii statici folosind numele clasei și operatorul de rezoluție de scop. **Funcțiile membre statice au permisiunea de a accesa doar membrii de date statici sau alte funcții membre statice; nu pot accesa membrii de date sau funcții membre non-statice ale clasei.**
+     La fel ca și membrii de date statici sau variabilele statice din interiorul clasei, funcțiile membre statice nu depind de obiectul clasei. Avem voie să apelăm o funcție membră statică folosind obiectul și operatorul „.”, dar se recomandă să apelăm membrii statici folosind numele clasei și operatorul de rezoluție de scop. **Funcțiile membre statice au permisiunea de a accesa doar membrii de date statici sau alte funcții membre statice; nu pot accesa membrii de date sau funcții membre non-statice ale clasei.** ( [exemplu](static_functions.cpp) )
 
 
 # Bibliografie
