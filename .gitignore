@@ -1,6 +1,7 @@
 .vscode
 virtual/example1.exe
 virtual/example2.exe
+virtual/example3.exe
 static/variabila_statica_clasa.exe
 static/variabila_statica.exe
 static/statica_membru_clasa.exe
@@ -9,6 +10,7 @@ const/example1.exe
 const/example2.exe
 const/example3.exe
 const/example4.exe
+inheritence/example1.exe
 
 virtual/example1.o
 virtual/example2.o
