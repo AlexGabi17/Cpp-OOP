@@ -22,9 +22,10 @@ class Derived: public Base{
 };
 
 int main(){
-    Base* bp = new Derived;
+    Base* bp[10];
+    bp[0] = new Derived;
 
-    delete bp;
+    delete bp[0];
 
     return 0;
 }
